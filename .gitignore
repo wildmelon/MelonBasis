@@ -1,0 +1,81 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Specific files to exclude
+dist
+com_crashlytics_export_strings.xml
+keys.xml
+#*.keystore
+freeline/
+### Android
+###########
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+gradle.properties
+keystore.properties
+
+### Mac
+.DS_store
+
+### Linux
+#########
+!.gitignore
+*~
+
+### Windows
+############
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+### IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+### Gradle
+.gradle/
+build/
+out/
+
+#Maven
+target
+release.properties
+pom.xml.*
+
+### AppEngine
+google_generated/
+datanucleus.log
+
+freelin/
+freeline_core/
+freeline.py
+freeline_project_description.json
